@@ -1,10 +1,11 @@
 <script lang="ts">
   import logo from '../assets/svelte.png'
   import Counter from '../components/Counter.svelte'
+  import './tailwind.css'
 </script>
 
 <main>
-  <img src={logo} alt="Svelte Logo" />
+  <img src={logo} alt="Svelte Logo" class="mx-auto" />
   <h1>Hello Typescript!</h1>
 
   <Counter />
